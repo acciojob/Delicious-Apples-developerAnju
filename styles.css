@@ -1,1 +1,100 @@
 /* your code here */
+body{
+	background-color: springgreen;
+}
+.product{
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	justify-content: center;
+	padding: 50px 30px;
+	width: 600px;
+	border-radius: 5px; 
+	margin: auto;
+}
+.photo-container{
+	box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	position: relative;
+	left: -60px;
+	width: 340px;
+}
+.product__photo{
+	width: 50%;
+}
+.photo__info{
+	width: 50%;
+}
+.photo-album ul{
+	display: flex;
+	list-style: none;
+	justify-content: end;
+	padding: 30px 10px;
+	margin: 0;
+	background-color:#fff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px
+}
+.photo-album ul li{
+	border: 1px solid #ddd;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+.controls{
+	display: flex;
+	justify-content: space-between;
+}
+.controls .fa{
+	color: #fff;
+}
+.photo-main{
+	background-color: greenyellow;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.photo-main img{
+	position: relative;
+    right: 72px;
+}
+.title h1{
+	margin-bottom: 7px;
+}
+.title span{
+	color: #ccc
+}
+.price{
+	color: red;
+	padding: 20px 0;
+}
+.price span{
+	font-size: 40px;
+	font-weight: bold;
+}
+.variant{
+	padding-bottom: 20px;
+}
+.variant h3,.description h3{
+	color: #a6a6a6;
+	font-weight: bold;
+}
+.variant ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+} 
+.variant ul li:first-child{
+	box-shadow: 0px 0.2px 0px 0.9px rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+.description{
+	margin-left: auto;
+}
+button{
+	box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.2);
+	border: 0;
+	padding: 20px 50px;
+	background-color: orangered;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 10px
